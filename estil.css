@@ -43,7 +43,7 @@ border-radius: 10px;
 
 .video{
     display: flex;
-    margin-top: 130px;
+   
     height:280px ;
     width: 50vw;
     background-color: rgb(100, 43, 43);
@@ -53,7 +53,8 @@ border-radius: 10px;
     display: flex;
     margin-top: 150px;
     align-items: center;
-    height: 90px;
+    height: 250px;
+    width: 800px;
     padding: 2.5% 20%;
     font-size: 14px;
     margin-top: 20px;
@@ -89,5 +90,12 @@ h2{
     .primeiro{
         font-size: 12px;
         height: 65px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .texto{
+        font-size:9px;
+        width: 100vw;
+        height: 70vh;
     }
 }
