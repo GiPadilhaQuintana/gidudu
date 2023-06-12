@@ -56,7 +56,7 @@ border-radius: 10px;
     height: 250px;
     width: 800px;
     padding: 2.5% 20%;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 20px;
 }
 
@@ -94,8 +94,55 @@ h2{
 }
 @media only screen and (max-width:320px) {
     .texto{
+        font-size:8px;
+        width: 360px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .video{
+        margin-top: 10px;
+    }
+}
+/*iphone*/
+@media only screen and (max-width:800px) {
+    .texto{
         font-size:9px;
-        width: 90vw;
-        height: 80vh;
+        width: 380px;
+        height: 70px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .video{
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width:800px) {
+    .primeiro{
+        font-size: 13px;
+        height: 75px;
+        
+    }
+}
+/*j5*/
+@media only screen and (max-width:720px) {
+    .texto{
+        font-size:9px;
+        width: 480px;
+        height: 70px;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width:720px) {
+    .video{
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width:720px) {
+    .primeiro{
+        font-size: 13px;
+        height: 75px;
+        
     }
 }
